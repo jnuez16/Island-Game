@@ -1,0 +1,44 @@
+﻿Build started 11/14/2014 12:00:34 PM.
+     1>Project "\\cs1\CS_Students\jnuez16\CS172-CS2\FINAL_PROJECT_Joshua_Nuez\Island3\Island3\Island3.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\Island3.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Island3.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Animals.cpp Island3.cpp islandMgr.cpp Player.cpp Predator.cpp Prey.cpp Tile.cpp
+         Tile.cpp
+         Prey.cpp
+         Predator.cpp
+         Player.cpp
+         islandMgr.cpp
+     1>\\cs1\cs_students\jnuez16\cs172-cs2\final_project_joshua_nuez\island3\island3\islandmgr.cpp(50): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>\\cs1\cs_students\jnuez16\cs172-cs2\final_project_joshua_nuez\island3\island3\islandmgr.cpp(88): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : see declaration of 'itoa'
+     1>\\cs1\cs_students\jnuez16\cs172-cs2\final_project_joshua_nuez\island3\island3\islandmgr.cpp(92): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : see declaration of 'itoa'
+     1>\\cs1\cs_students\jnuez16\cs172-cs2\final_project_joshua_nuez\island3\island3\islandmgr.cpp(95): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : see declaration of 'itoa'
+     1>\\cs1\cs_students\jnuez16\cs172-cs2\final_project_joshua_nuez\island3\island3\islandmgr.cpp(98): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : see declaration of 'itoa'
+     1>\\cs1\cs_students\jnuez16\cs172-cs2\final_project_joshua_nuez\island3\island3\islandmgr.cpp(211): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+         Island3.cpp
+     1>\\cs1\cs_students\jnuez16\cs172-cs2\final_project_joshua_nuez\island3\island3\island3.cpp(153): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>\\cs1\cs_students\jnuez16\cs172-cs2\final_project_joshua_nuez\island3\island3\island3.cpp(254): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+         Animals.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /l"0x0409" /nologo /fo"Debug\Island3.res" Island3.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"\\cs1\CS_Students\jnuez16\CS172-CS2\FINAL_PROJECT_Joshua_Nuez\Island3\Debug\Island3.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"\\cs1\CS_Students\jnuez16\CS172-CS2\FINAL_PROJECT_Joshua_Nuez\Island3\Debug\Island3.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"\\cs1\CS_Students\jnuez16\CS172-CS2\FINAL_PROJECT_Joshua_Nuez\Island3\Debug\Island3.lib" /MACHINE:X86 Debug\Island3.res
+         Debug\Animals.obj
+         Debug\Island3.obj
+         Debug\islandMgr.obj
+         Debug\Player.obj
+         Debug\Predator.obj
+         Debug\Prey.obj
+         Debug\stdafx.obj
+         Debug\Tile.obj
+         Island3.vcxproj -> \\cs1\CS_Students\jnuez16\CS172-CS2\FINAL_PROJECT_Joshua_Nuez\Island3\Debug\Island3.exe
+     1>Done Building Project "\\cs1\CS_Students\jnuez16\CS172-CS2\FINAL_PROJECT_Joshua_Nuez\Island3\Island3\Island3.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.49
